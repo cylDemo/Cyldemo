@@ -1,0 +1,43 @@
+# fileName: api_config.yml
+ 
+host: https://XXX.com
+ 
+login:
+  name: 【登录】手机号码登录
+  method: Post
+  url: /v1/login/
+  data:
+    phone_country: 86
+    phone_number: 1210000000
+    password: 123456
+    device_id: XXX
+    device_name: Iphone8plus
+    device_pubkey: XXX
+  headers:
+    Content-Type: application/x-www-form-urlencoded
+    Authorization: Basic XXX
+ 
+asset_main:
+  name: 【资产】用户资产列表页
+  method: Get
+  url: /v2/main/
+  headers:
+    Authorization: Bearer
+    app-version: 4.8.0
+    device-id: XXX
+  expected:
+    success: true
+ 
+lend:
+  name: 发送请求
+  method: Post
+  url: /v1/lend/
+  data:
+    payment_password: 123456
+    amount: 100
+    pledge_source: 1
+  headers:
+    Content-Type: application/x-www-form-urlencoded
+    Authorization: Bearer
+    device-id: XXX
+    app-version: 4.8.0
