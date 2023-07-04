@@ -1,4 +1,4 @@
-### Hi there 👋
+### 此为简单练习代码，不做具体学习使用 👋
 
 <!--
 **cylDemo/Cyldemo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
